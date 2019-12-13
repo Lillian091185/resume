@@ -96,7 +96,7 @@ body{
 .right{
     width:800px;
     height:500px;
-    background:white;
+    background-image:url(../images/2.jpg);
     background-size:cover;
     background-position: left;
     position:relative;
@@ -141,8 +141,6 @@ table{
     position:relative;
     top:40px;
     left:150px;
-    background-image:url(../images/2.jpg);
-    background-size:cover;
     width:500px;
     height:350px;
     text-align:center;

@@ -6,7 +6,6 @@
   
 ?>
 <div class="t">
-<h1 class="tit">自<br>傳</h1>
 <table>
 <td><?=$row['self_text']?></td>
 </tr>
