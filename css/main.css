@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    font-family: '微軟正黑體', sans-serif;
+}
+
+.all{
+    width:1000px;
+    height:600px;
+    background:white;
+    box-shadow: 0 0 10px 3px black;
+    margin:auto;
+    top:30px;
+    position:relative;
+}
+
+.title{
+    width:1000px;
+    height:100px;
+    background:rgb(255, 146, 164);
+    background-size:cover;
+    position:relative;
+}
+
+.left{
+    width:180px;
+    height:500px;
+    background:rgb(255, 146, 164);
+    background-size:cover;
+    position: relative;
+}
+
+.photo{
+    
+    width:140px;
+    height:140px;
+    margin:auto;
+    position: relative;
+}
+
+.file{
+    width:150px;
+    height:30px;
+    position: relative;
+    top:15px;
+    left:15px;
+    z-index:1;
+    display:inline-block;
+}
+
+.edit_img{
+    width:57px;
+    height:18px;
+    background:black;
+    position: absolute;
+    top:7px;
+    left:50px;
+    font-size:10px;
+    background:pink;
+}
+
+.edit{
+    position: absolute;
+    top:3px;
+    left:10px;
+    color:blue;
+    font-weight:bold;
+}
+
+.submit{
+    width:30px;
+    height:18px;
+    font-size:10px;
+    position: absolute;
+    top:7px;
+    left:110px;
+}
+
+.item1{
+    width: 120px;
+    height:40px;
+    background-image:url(../images/tt.jpg);
+    position:relative;
+    margin:10px 35px auto auto;
+    padding:8px;
+    top:15px;
+    border-radius:30px;
+    text-align:center;
+}
+
+.right{
+    width:800px;
+    height:500px;
+    background:white;
+    background-size:cover;
+    background-position: left;
+    position:relative;
+    bottom:500px;
+    left:200px;
+}
+
+.btn{
+    width:60px;
+    height:30px;
+    background:rgb(39, 39, 39);
+    color:white;
+    box-shadow: 0 0 10px 3px white;
+    font-weight:bold;
+    position: absolute;
+    top:60px;
+    right:250px;
+    z-index:1;
+    border-radius:30px;
+    cursor: pointer;
+}
+
+.ti{
+    color:white;
+    font-size:3em;
+    font-weight:bold;
+    position:absolute;
+    top:15px;
+    left:400px;
+    text-shadow: 0 0 10px rgb(45, 66, 48); 
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    font-size:1.2em;
+    text-shadow:0 0 3px red;
+}
+
+table{
+    position:relative;
+    top:40px;
+    left:150px;
+    background-image:url(../images/2.jpg);
+    background-size:cover;
+    width:500px;
+    height:350px;
+    text-align:center;
+    border-radius:20px;
+    padding:10px;
+    color:black;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.t{
+    max-height:350px;
+    max-width:800px;
+    overflow: auto;
+    position: relative;;
+    top:30px;
+
+}
+
+input{
+    width:250px;
+    height:20px;
+}
+
+.sub{
+    width:50px;
+    height:20px;
+    position: relative;
+}
+
+.tit{
+    font-weight:bold;
+    font-size:2em;
+    position:fixed;
+    top:270px;
+    left:450px;
+}
+
+.new{
+    width:50px;
+    height:20px;
+    position: absolute;
+    top:40px;
+    left:100px;
+    bottom:12px;
+}
+
+.del{
+    width:50px;
+    height:20px;
+}
+
+.tt{
+    max-height:500px;
+    overflow: auto;
+}
+
+.modal{
+    display: none;
+    height: 350px;
+    width: 350px;
+    background-color:rgba(146, 145, 145, 0.9);
+    position: fixed;
+    z-index: 99;
+    top:200px;
+    left:700px;
+    text-align:center;
+}
+
+
+.new{
+    position:relative;
+    top:40px;
+    left:50px;
+}
+
+.insert{
+    width:50px;
+    height:20px;
+}
+
+.cancel{
+    width:50px;
+    height:20px;
+}
+
+.update{
+    width:50px;
+    height:20px;
+}
+
+.edit_p{
+    position:relative;
+    top:50px;
+    left:200px;
+}
